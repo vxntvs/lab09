@@ -1,0 +1,3 @@
+/home/pavel/vxntvs/workspace/projects/lab09/_build/CMakeFiles/print.dir
+/home/pavel/vxntvs/workspace/projects/lab09/_build/CMakeFiles/edit_cache.dir
+/home/pavel/vxntvs/workspace/projects/lab09/_build/CMakeFiles/rebuild_cache.dir
