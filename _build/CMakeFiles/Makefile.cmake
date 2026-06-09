@@ -40,6 +40,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeUnixFindMake.cmake"
+  "/usr/share/cmake-3.31/Modules/CPack.cmake"
+  "/usr/share/cmake-3.31/Modules/CPackComponent.cmake"
   "/usr/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
@@ -117,6 +119,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake"
   "/usr/share/cmake-3.31/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.31/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.31/Templates/CPackConfig.cmake.in"
   )
 
 # The corresponding makefile is:
@@ -132,6 +135,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
+  "CPackConfig.cmake"
+  "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
